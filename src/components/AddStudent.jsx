@@ -1,14 +1,15 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const AddStudent = () => {
     return (
         <div>
-
-            <div className="container">
+            <NavBar />
+            <div className="container mt-4">
                 <div className="row">
                     <div className="col col-12">
 
-                        <div className="row">
+                        <div className="row g-4">
                             <div className="col col-12 col-sm-6 col-md-4">
 
                                 <label htmlFor="" className="form-label">Admission Number</label>
